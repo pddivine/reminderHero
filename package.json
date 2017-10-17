@@ -1,0 +1,27 @@
+{
+  "name": "reminder-hero",
+  "version": "0.0.0",
+  "description": "An internal product for reminders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pddivine/reminderHero.git"
+  },
+  "author": "Patrick Divine",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/pddivine/reminderHero/issues"
+  },
+  "homepage": "https://github.com/pddivine/reminderHero#readme",
+  "dependencies": {
+    "config": "^1.26.2",
+    "cron": "^1.3.0",
+    "mongoose": "^4.12.2",
+    "node-root.pddivine": "^1.0.0",
+    "twilio": "^3.8.1"
+  }
+}
